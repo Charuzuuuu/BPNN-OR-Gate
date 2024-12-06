@@ -21,7 +21,7 @@ namespace BackpropagationNeuralNetwork
 
         private void button1_Click(object sender, EventArgs e)
         {
-            nn = new NeuralNet(2, 2, 1);
+            nn = new NeuralNet(2, 100, 1);
         }
 
         private void button2_Click(object sender, EventArgs e)
